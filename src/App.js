@@ -16,9 +16,9 @@ function App() {
 
     const particle = useMemo(() => {
         const particle = new ParticleNetwork({
-            projectId: "6c46b1d9-a22f-4009-b9f7-f2eda7082a88",
-            clientKey: "cCGhylyf0C8MfS835sbmwaGnvxZReUQqVhhDgTEz",
-            appId: "efc87166-c8b9-487c-9fb0-b74f37e06990",
+            projectId: "6*",
+            clientKey: "c*",
+            appId: "e*",
             chains: [Ethereum, Mantle, BNBChain, Polygon],
             chainName: BNBChain.name, //optional: current chain name, default Ethereum.
             chainId: BNBChain.id, //optional: current chain id, default 1.
